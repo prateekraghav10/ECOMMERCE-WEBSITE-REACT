@@ -14,18 +14,19 @@ const LogoutButton = () => {
 };
 const Wrapper = styled.section`
 button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0062cc;
-  }
-  
+  background-color: #725a7a;
+  border: solid 2px #fff;
+  border-radius:15px;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #423447;
+}
 `;
 export default LogoutButton;

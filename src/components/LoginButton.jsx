@@ -8,7 +8,9 @@ const LoginButton = () => {
 };
 const Wrapper =styled.section`
 button {
-    background-color: #007bff;
+    background-color: #725a7a;
+    border: solid 2px #fff;
+    border-radius:15px;
     color: #fff;
     border: none;
     padding: 10px 16px;
@@ -18,7 +20,7 @@ button {
   }
   
   button:hover {
-    background-color: #0062cc;
+    background-color: #423447;
   }
   `;
 export default LoginButton;

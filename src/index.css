@@ -10,7 +10,9 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
+  /* background-color: #355c7d; */
+  background-color: rgb(250, 246, 240);
   line-height: 1.6rem;
 }
 
@@ -51,7 +53,7 @@ img {
   /* margin: 20px; */
   box-shadow: rgb(189, 189, 192) 0px 15px 15px -5px;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #eee;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -66,6 +68,9 @@ img {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+}
+.card img{
+  border-radius: 15px;
 }
 
 .card:hover {
@@ -86,7 +91,8 @@ img {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   grid-row: wrap;
   justify-content: center;
@@ -239,13 +245,15 @@ img {
 }
 
 .wrapper {
-  background-color: #007fff;
+  /* background-color: #007fff; */
+  /* background-color: #c56d86; */
+  background-color: #2a3950;
   color: #fff;
   text-align: center;
 }
 
 .wrapper .grid {
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
 }
 
 .link {
@@ -279,8 +287,11 @@ img {
 .search-btn {
   border: solid 2px #fff;
   padding: 0 10px;
+  margin: 6px;
   border-radius: 15px;
   cursor: pointer;
+  background: #725a7a;
+  color: #fff;
 }
 
 .form-control {
@@ -431,7 +442,8 @@ img {
 }
 
 .price {
-  color: #007fff;
+  /* color: #007fff; */
+  color: #725a7a;
   font-weight: 600;
 }
 
@@ -439,7 +451,8 @@ img {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background: #007fff;
+  /* background: #007fff; */
+  background: #725a7a;
   color: #fff;
   border: none;
   font-size: 2rem;

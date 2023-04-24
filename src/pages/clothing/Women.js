@@ -4,7 +4,7 @@ import { useSearchParams } from "react-router-dom"
 import { Item } from "../../components/item"
 import { useCart } from "../../context/cart"
 
-const Products = () => {
+const Women= () => {
     const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([]);
     const [query] = useSearchParams();
@@ -15,7 +15,7 @@ const Products = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             setLoading(true);
-            const products = searchQuery ? await FakeStoreApi.fetchProductsBySearchQuery(searchQuery) : await FakeStoreApi.fetchAllProducts();
+            const products = searchQuery ? await FakeStoreApi.fetchProductsBySearchQuery(searchQuery) : await FakeStoreApi.fetchWomenProducts();
             setProducts(products);
             setLoading(false)
         }
@@ -51,4 +51,4 @@ const Products = () => {
     )
 }
 
-export { Products }
+export { Women }
