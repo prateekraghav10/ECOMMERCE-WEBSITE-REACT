@@ -6,7 +6,7 @@ const ServiceSection = () => {
       <Service>
         <ServiceIcon className="fas fa-truck"></ServiceIcon>
         <ServiceTitle>Free Shipping</ServiceTitle>
-        <ServiceText>Get free shipping on all orders over $50</ServiceText>
+        <ServiceText>Get free shipping on all orders over Rs 1000</ServiceText>
       </Service>
       <Service>
         <ServiceIcon className="fas fa-dollar-sign"></ServiceIcon>

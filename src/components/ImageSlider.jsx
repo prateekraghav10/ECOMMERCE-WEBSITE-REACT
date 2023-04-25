@@ -8,32 +8,32 @@ const ImageSlider = () => {
 
   const images = [{
 		id: 1,
-		src: "https://miro.medium.com/max/1200/1*K7yx3HTLMBGmDZzy968Ivw.jpeg",
+		src: "https://ciyashop.potenzaglobalsolutions.com/home-slider/wp-content/uploads/sites/18/2018/05/shop.jpg",
 		alt: "Image 1"
 	},
 	{
 		id: 2,
-		src: "https://res.cloudinary.com/practicaldev/image/fetch/s--MZvaMEOV--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qll2w5atklv13ljmqope.png",
+		src: "https://smartslider3.com/wp-content/uploads/2018/05/fashionslider.jpg",
 		alt: "Image 2 "
 	},
 	{
 		id: 3,
-		src: "https://secure.charityandbiscuits.com/wp-content/uploads/2016/06/20231034/carousel.jpeg",
+		src: "https://img.freepik.com/premium-psd/horizontal-website-banne_451189-110.jpg?w=2000",
 		alt: "Image 3"
 	},
   {
 		id: 4,
-    src: "https://sharkcoder.com/files/article/carousel_main.jpg",
+    src: "https://teelabs.in/wp-content/uploads/2021/07/custom-T-shirt-printing-in-chennai-india.jpg",
 		alt: "Image 4"
 	},
   {
 		id: 5,
-    src : "https://th.bing.com/th/id/R.ea7a80b84a3381d891f8e9075181bab7?rik=%2bkbXAsKP1kFJag&riu=http%3a%2f%2fwowslider.com%2fsliders%2fdemo-77%2fdata1%2fimages%2ffield175959_1920.jpg&ehk=a93vddCZtGzlg8%2fV4LGXSP7bbeGsQuCLxn2yMWTGhKM%3d&risl=&pid=ImgRaw&r=0",
+    src : "https://img.freepik.com/premium-vector/modern-sale-banner-website-slider-template-design_54925-44.jpg?w=996",
     alt: "Image 5"
 	},
   {
     id: 6,
-    src : "https://th.bing.com/th/id/R.4f42f050570f6732327be39916733c0f?rik=oMiISSz57Dk%2b9g&riu=http%3a%2f%2fwowslider.com%2fsliders%2fdemo-77%2fdata1%2fimages%2froad220058.jpg&ehk=UATqMGyrA%2bcYWq%2fZ891waAGImFspHhv9Vn%2fXOrLDQIE%3d&risl=&pid=ImgRaw&r=0",
+    src : "https://mcrshopping.com/panel/public/img/offer/aB6Dmyp3sBV4FCX5.jpg",
     alt: "slide 6"
   }
 ];

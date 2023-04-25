@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h4>About Us</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p> Punjab's No 1 ecommerce site</p>
         </div>
         <div className="footer-section">
           <h4>Connect with Us</h4>
@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>1234 Main Street, Anytown USA 12345</p>
-          <p>Phone: 555-555-5555</p>
-          <p>Email: info@example.com</p>
+          <p>1234 Main Street, Adampur ,Punjab</p>
+          <p>Phone: 4000-6543-21</p>
+          <p>Email: prateek@demogmail.com</p>
         </div>
       </div>
     </Wrapper>
